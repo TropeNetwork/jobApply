@@ -1,0 +1,68 @@
+<form {form_attributes}>
+{form_session_html}
+<table class="formtable">
+<tr>
+ <td>
+   {menu}
+ </td>
+</tr>
+<tr>
+ <td width="50%" valign="top">
+ <!-- Personal info -->
+  <table width="100%" cellpadding="4">
+   <tr><th colspan="4">{form_header_personal}</th></tr>
+   <tr>
+    <td class="label">
+      {form_languageSkillsNative_label}
+    </td>
+    <td class="element" colspan="3">
+      {form_languageSkillsNative_html}
+    </td>
+   </tr>
+   <tr>
+   <td class="label" rowspan="2">
+     sonstige Sprachen
+   </td>
+   <td class="element">
+     {form_languageSkillsPerfect_html}
+   </td>
+   <td class="element">
+     {form_languageSkillsGood_html}
+   </td>
+   <td class="element">
+     {form_languageSkillsBasic_html}
+   </td>
+
+   </tr>
+   <tr>
+   <td class="labelBelow">
+     {form_languageSkillsPerfect_label}
+   </td>
+   <td class="labelBelow">
+     {form_languageSkillsGood_label}
+   </td>
+   <td class="labelBelow">
+     {form_languageSkillsBasic_label}
+   </td>
+   </tr>
+   <tr>
+    <td class="label">{form_computerSkills_label}</td>
+    <td class="element" colspan="3">{form_computerSkills_html}</td>
+   </tr>
+   <tr>
+    <td class="label">{form_additionalSkills_label}</td>
+    <td class="element" colspan="3">{form_additionalSkills_html}</td>
+   </tr>
+  </table>
+ </td>
+</tr>
+</table>
+<table width="600" align="center">
+<tr>
+  <td width="100%">{form_required_note}</td>
+  <td align="right">{form_back_html}</td>
+  <td align="right">{form_next_html}</td>
+  <td align="right">{form_submit_html}</td>
+</tr>
+</table>
+</form>
